@@ -1,8 +1,8 @@
 {
-  "name": "project_name",
+  "name": "workshop-7.1-ci-cd",
   "version": "1.0.0",
   "description": "Test GitHub Actions Deploy",
-  "homepage": "https://{login}.github.io/{project_name}",
+  "homepage": "https://hidiv.github.io/workshop-7.1-ci-cd",
   "main": "index.js",
   "scripts": {
     "serve": "browser-sync start --server src --no-notify --no-ui --cwd src --files index.html,styles/**/*",
