@@ -8,13 +8,13 @@
     "test": "mocha ./tests/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix --ext .",
-    "build": "rm -r dist || true && parcel build src/index.html --dist-dir dist --public-url /workshop-7.1-ci-cd/",
+    "build": "rm -r dist || true && parcel build src/index.html --public-url=./ --dist-dir dist",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [
     "github-actions"
   ],
-  "author": "Alyona Siprikova",
+  "author": "Dmitry Ivanov",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
